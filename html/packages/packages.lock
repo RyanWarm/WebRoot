@@ -1,0 +1,163 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4961560dca1a118a651bbc2e4965acb0",
+    "content-hash": "6518d1ffc0fe0d5be172ba5d602c224c",
+    "packages": [
+        {
+            "name": "abeautifulsite/simpleimage",
+            "version": "2.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/claviska/SimpleImage.git",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "abeautifulsite": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nazar Mokrynskyi",
+                    "email": "nazar@mokrynskyi.com",
+                    "homepage": "http://cleverstyle.org/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Cory LaViska",
+                    "homepage": "http://www.abeautifulsite.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP class that simplifies working with images",
+            "time": "2015-08-08 06:11:41"
+        },
+        {
+            "name": "bixie/portfolio",
+            "version": "1.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/portfolio/1.1.3.zip",
+                "reference": null,
+                "shasum": ""
+            },
+            "require": {
+                "abeautifulsite/simpleimage": "2.5.*"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://portfolio.bixie.org"
+                }
+            ],
+            "description": "Create a beautiful portfolio in your Pagekit site"
+        },
+        {
+            "name": "pagekit/blog",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/blog/1.0.1.zip",
+                "reference": null,
+                "shasum": "71ff7e51bfcfa17837d3fe6682012d0054392f40"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blog extensions with a built-in comment system."
+        },
+        {
+            "name": "pagekit/theme-one",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/theme-one/1.0.0.zip",
+                "reference": null,
+                "shasum": "6d49b3cbb1de15b4a3947890e7935b13de76f7f8"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "!/css",
+                    "/app/assets",
+                    "gulpfile.js",
+                    "bower.js",
+                    "package.js"
+                ]
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Pagekit's default theme."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,32 @@
+﻿
+<html>
+  <head>
+    <title>在线客服测试网站</title>		
+  </head>
+  <body> 
+
+<script language="javascript" type="text/javascript">
+var NTKF_PARAM = {
+		siteid:"kf_9302",		            //企业ID，为固定值，必填
+		settingid:"kf_9302_1464944019731",	//接待组ID，为固定值，必填
+		uid:"",		                        //用户ID，未登录可以为空，但不能给null，uid赋予的值显示到小能客户端上
+		uname:"",		                    //用户名，未登录可以为空，但不能给null，uname赋予的值显示到小能客户端上
+		isvip:"0",                          //是否为vip用户，0代表非会员，1代表会员，取值显示到小能客户端上
+		userlevel:"1"		                //网站自定义会员级别，0-N，可根据选择判断，取值显示到小能客户端上
+		
+		} 
+	</script>
+ </script>
+<script type="text/javascript" src="http://dl.ntalker.com/js/xn6/ntkfstat.js?siteid=kf_9302" charset="utf-8"></script>
+
+<script language="javascript" type="text/javascript">
+	
+	window.onload = function () {
+		window.document.title = '在线客服';
+		NTKF.browser.mobile=1;
+		NTKF.im_openInPageChat();
+	
+	}
+	</script>
+</body>
+</html>
